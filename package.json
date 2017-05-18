@@ -1,0 +1,13 @@
+{
+  "name": "selfcare",
+  "version": "0.0.1",
+  "main": "index.js",
+  "author": "John Manoogian III <jm3@jm3.net>",
+  "license": "MIT",
+  "description": "harvest, delete, and make searchable twitter likes",
+  "dependencies": {
+    "path": "^0.12.7",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
+  }
+}
