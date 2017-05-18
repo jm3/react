@@ -8,11 +8,14 @@ transform into plain, vanilla Javascript.
 
 ## Webpack.config
 - The configuration is pretty self-explanatory. We require the
-  html-webpack-plugin and then create a new instance of it, and set our
-  skeleton HTML as the template. filename refers to the name of the HTML
-  that the plugin will generate. inject body tells the plugin to add any
-  JavaScript into the bottom of the page, just before the closing body
-  tag.
+html-webpack-plugin and then create a new instance of it, and set our
+skeleton HTML as the template. filename refers to the name of the HTML
+that the plugin will generate. inject body tells the plugin to add any
+JavaScript into the bottom of the page, just before the closing body
+tag.
+
+## JSX
+extension can be either JSX or JS. React file naming convention is CamelCase.
 
 # vim:set nospell ft=markdown
 
