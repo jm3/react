@@ -22,5 +22,10 @@ module.exports = {
     ]
   },
 
+  resolve: {
+    // permits require('file') instead of 'file.js'
+    extensions: ['.css', '.less', '.js', '.json', '.jsx']
+  },
+
   plugins: [HtmlWebpackPluginConfig]
 }
