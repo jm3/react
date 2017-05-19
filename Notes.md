@@ -7,12 +7,12 @@
 transform into plain, vanilla Javascript.
 
 ## Webpack.config
-- The configuration is pretty self-explanatory. We require the
-html-webpack-plugin and then create a new instance of it, and set our
-skeleton HTML as the template. filename refers to the name of the HTML
-that the plugin will generate. inject body tells the plugin to add any
-JavaScript into the bottom of the page, just before the closing body
-tag.
+- We require the html-webpack-plugin and then create a new instance of it, and set
+our skeleton HTML as the template. filename = the name of the HTML that the
+plugin will generate. inject body tells the plugin to add any JavaScript into
+the bottom of the page, just before the closing body tag.
+- Entry points: where loading begins. a single {entry: 'path/file.js'} is shorthand for {entry: main: 'path/file.js'}
+
 
 ## JSX
 extension can be either JSX or JS. React file naming convention is CamelCase.
@@ -28,4 +28,3 @@ very compatible with webpack 2, so instead I used these 3 loaders plus the less 
 - style-loader
 
 # vim:set nospell ft=markdown
-
