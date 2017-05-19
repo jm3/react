@@ -5,6 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
   filename: 'index.html',
+  favicon: './client/favicon.ico',
   inject: 'body'
 })
 
@@ -21,7 +22,7 @@ module.exports = {
     loaders: [
       { test: /\.css$/,  loader: 'style-loader!css-loader' }, // bang chains loaders!
       { test: /\.less$/, loader: 'style-loader!css-loader!less-loader' },
-      { test: /\.(jpg|png)$/, loader: 'url-loader'},
+      { test: /\.(jpg|png|gif|ico)$/, loader: 'url-loader'},
       { test: /\.js$/,   loader: 'babel-loader', exclude: /node_modules/ },
       { test: /\.jsx$/,  loader: 'babel-loader', exclude: /node_modules/ },
     ]
