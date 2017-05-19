@@ -15,7 +15,7 @@ module.exports = {
   },
   output: {
     path: path.resolve('dist'),
-    filename: '[name].js' // or, e.g. [name].[chunkhash] for cachebuster
+    filename: '[name].js' // or, e.g. [name].[chunkhash] for cachebusteroutput.sourceMapFilename
   },
   module: {
     loaders: [
