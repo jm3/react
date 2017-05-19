@@ -17,5 +17,15 @@ tag.
 ## JSX
 extension can be either JSX or JS. React file naming convention is CamelCase.
 
+## Loading Styles
+Webpack needs a series of loaders to load CSS. I heard "PostCSS"
+mentioned a few times at Active Ingredients: Web, but it didn't seem
+very compatible with webpack 2, so instead I used these 3 loaders plus the less pkg:
+
+- css-loader
+- less
+- less-loader
+- style-loader
+
 # vim:set nospell ft=markdown
 
