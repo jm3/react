@@ -8,6 +8,7 @@ export default class App extends React.Component {
         <h2>webpack cfg loads CSS + LESS now.</h2>
         <h2>Can I import many CSS files w/out explicitly js-including each?<div>OH HELL YES</div></h2>
         <h2>Behold, I shall load an external library (d3) in a chunked include.</h2>
+        <h2>It is I, loader of CSS url() image paths using url-loader.</h2>
       </div>
     );
   }
