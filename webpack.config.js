@@ -1,3 +1,4 @@
+const webpack = require('webpack'); // necessary for CommonsChunkPlugin to work
 const path = require('path');
 
 const HtmlWebpackPlugin = require('html-webpack-plugin');
@@ -8,10 +9,13 @@ const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
 })
 
 module.exports = {
-  entry: './client/index.js',
+  entry: {
+    main: './client/index.js',
+    vendor: 'd3'
+  },
   output: {
     path: path.resolve('dist'),
-    filename: 'index_bundle.js'
+    filename: '[name].js' // or, e.g. [name].[chunkhash] for cachebuster
   },
   module: {
     loaders: [
@@ -27,5 +31,8 @@ module.exports = {
     extensions: ['.css', '.less', '.js', '.json', '.jsx']
   },
 
-  plugins: [HtmlWebpackPluginConfig]
+  plugins: [
+    HtmlWebpackPluginConfig,
+    new webpack.optimize.CommonsChunkPlugin({name: 'vendor'})
+  ]
 }
