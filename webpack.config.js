@@ -1,11 +1,17 @@
-const webpack = require('webpack'); // necessary for CommonsChunkPlugin to work
 const path = require('path');
 
+// necessary for CommonsChunkPlugin to work
+const webpack = require('webpack');
+
+// Simplifies the creation of HTML files to serve your webpack bundles by
+// generating an HTML5 file* that includes
+// all your webpack bundles in the body using script tags.
+// * or uses your specified template as a starting point to generate
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
   template: './client/index.html',
   filename: 'index.html',
-  favicon: './client/favicon.ico',
+  favicon: './client/favicon.png',
   inject: 'body'
 })
 
