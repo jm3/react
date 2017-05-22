@@ -10,7 +10,7 @@ export default class App extends React.Component {
         <div className="cen round avatar">
           <img src={ruby} height="436" width="581" />
         </div>
-        <h1>jm3 says: HelloReact.jsx!</h1>
+        <h1><b>Ruby</b> says: HelloReact.jsx!</h1>
         <h2>webpack cfg loads CSS + LESS now.</h2>
         <h2>Can I import many CSS files w/out explicitly js-including each?<div>OH HELL YES</div></h2>
         <h2>It is I, loader of CSS url() image paths using url-loader.</h2>
