@@ -1,0 +1,8 @@
+/* FIXME testing plain CSS loading; nothing to see here */
+.silly-unused {
+  color: red;
+}
+/*
+ * one could @import other css files here,
+ * if one felt so inclined.
+ */

@@ -41,7 +41,9 @@ plugin will generate. `inject` body tells the plugin to add any JavaScript into 
 - *Entry points*: where loading begins. a single `{entry: 'path/file.js'}` is shorthand for `{entry: main: 'path/file.js'}`
 - *output*: path: `__dirname + '/build'`. more on resolution: https://webpack.github.io/docs/resolving.html
 - *loaders*: loaders transform files upon `require()`ing or sourcing them. Loaders can transform files from one lang to another (e.g. typescript to JS, or inline images as data urls), or require CSS right into JS.
-- *plugins*: the [HtmlWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) generates a skeleton HTML base file to load your code.
+- *plugins*:
+  - [HtmlWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) generates a skeleton HTML base file to load your app. You can specify a starting template, which is what I did.
+  - 
 
 ## Loading Styles
 webpack needs a series of loaders to work with CSS. **PostCSS** was
