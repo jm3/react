@@ -27,6 +27,10 @@ transform into plain, vanilla Javascript.
 - comments in JSX: `{/* foo */}`
 
 ## Tools
+### Starter Kits
+- [Create React App](https://github.com/facebookincubator/create-react-app) by Facebook (26,962 ⭐️s)
+- alt (366 ⭐️s) [React Starter Kit](https://github.com/kriasoft/react-app) - CLI tool and templates for authoring React applications with a single dev dependency and zero build/run configuration.
+
 - [React inspector for Chrome ](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
 ## webpack (always lowercase, lol)
