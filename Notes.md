@@ -33,15 +33,15 @@ transform into plain, vanilla Javascript.
 
 - [React inspector for Chrome ](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi)
 
-## webpack (always lowercase, lol)
-### webpack.config.js
+## webpack - a module bundler
+### configuration via `webpack.config.js`
 - We require `html-webpack-plugin`, create a new instance of it, and set
 our skeleton HTML as the template. `filename` = the name of the HTML that the
 plugin will generate. `inject` body tells the plugin to add any JavaScript into the bottom of the page, just before the closing body tag.
 - *Entry points*: where loading begins. a single `{entry: 'path/file.js'}` is shorthand for `{entry: main: 'path/file.js'}`
-- *packages*: seems like many or most of the packages can go into devDependencies
 - *output*: path: `__dirname + '/build'`. more on resolution: https://webpack.github.io/docs/resolving.html
 - *loaders*: loaders transform files upon `require()`ing or sourcing them. Loaders can transform files from one lang to another (e.g. typescript to JS, or inline images as data urls), or require CSS right into JS.
+- *plugins*: the [HtmlWebpackPlugin](https://github.com/jantimon/html-webpack-plugin) generates a skeleton HTML base file to load your code.
 
 ## Loading Styles
 webpack needs a series of loaders to work with CSS. **PostCSS** was
@@ -57,4 +57,4 @@ mentioned a few times at Active Ingredients: Web, but the Internet doesn't make 
 
 - via: https://scotch.io/tutorials/setup-a-react-environment-using-webpack-and-babel
 
-# vim:set nospell ft=markdown
+_ # vim:set nospell ft=markdown _
