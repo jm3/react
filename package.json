@@ -24,8 +24,8 @@
     "chai": "^3.5.0",
     "css-loader": "^0.28.1",
     "d3": "^4.9.1",
-    "less-loader": "^4.0.3",
     "less": "^2.7.2",
+    "less-loader": "^4.0.3",
     "mocha": "^3.4.1",
     "style-loader": "^0.17.0",
     "url-loader": "^0.5.8"
