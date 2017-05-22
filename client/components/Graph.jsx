@@ -1,6 +1,5 @@
 import React from 'react';
 const d3 = require('d3');
-console.log( d3.version );
 
  export default class Graph extends React.Component {
   render() {
