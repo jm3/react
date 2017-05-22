@@ -38,8 +38,8 @@ module.exports = {
       // (which HtmlWebpackPlugin will add a reference to in our HEAD)
       { test: /.less$/,   loader: ExtractTextPlugin.extract({ use: ['css-loader', 'less-loader'] })},
 
-      // NOTE: url-loader inlines small assets as data-URLs and uses file-loader (or something like it) on the rest, basically.
-      { test: /\.(jpg|png|gif|ico)$/, loader: 'url-loader?limit=10000'},
+      // NOTE: url-loader inlines small assets (< 20k) as data-URIs and uses file-loader (or something like it) on the rest, basically.
+      { test: /\.(jpg|png|gif|ico)$/, loader: 'url-loader?limit=20000'},
 
       // bundle web fonts; the name=.. spec places them in a fonts/ subdirectory when bundling,
       // which should NOT matter when referencing them, but is simply cleaner
