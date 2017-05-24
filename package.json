@@ -1,18 +1,16 @@
 {
-  "name": "selfcare",
+  "name": "react-hacks",
   "version": "0.0.1",
   "main": "index.js",
   "author": "John Manoogian III <jm3@jm3.net>",
   "license": "MIT",
-  "description": "harvest, delete, and make searchable twitter likes",
+  "description": "learning React + webpack + babel + JSX",
   "dependencies": {
   },
   "scripts": {
     "start": "webpack-dev-server"
   },
   "devDependencies": {
-    "webpack": "^2.5.1",
-    "webpack-dev-server": "^2.4.5",
     "babel-core": "^6.24.1",
     "babel-loader": "^7.0.0",
     "babel-preset-es2015": "^6.24.1",
@@ -30,6 +28,8 @@
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "style-loader": "^0.17.0",
-    "url-loader": "^0.5.8"
+    "url-loader": "^0.5.8",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5"
   }
 }
