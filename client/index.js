@@ -20,4 +20,7 @@ import './screen.less';
 import './plain-old.css'
 
 ReactDOM.render(<App pi={Math.PI} />, document.getElementById('root'));
-ReactDOM.render(<Graph />, document.getElementById('d3-version'));
+ReactDOM.render(<Graph />, document.getElementById('graph'));
+
+import rainbow from './rainbow'
+rainbow();
