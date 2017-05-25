@@ -17,7 +17,7 @@ import './screen.less';
 // files @imported from plain-old.css.
 // NOTE: leading ./ for CSS paths is 100% significant to webpack.
 // DO NOT REMOVE IT.
-import './plain-old.css'
+import './screen.css'
 
 ReactDOM.render(<App pi={Math.PI} />, document.getElementById('root'));
 ReactDOM.render(<Graph />, document.getElementById('graph'));

@@ -6,7 +6,7 @@ const d3 = require('d3');
 
     return (
       <div style={{textAlign: 'center'}}>
-      <svg width="960" height="960"><g transform="translate(480,480)"></g></svg>
+      <svg width="480" height="480"><g transform="translate(240,240)"></g></svg>
 
         <h2>
           Stare in awe as I load a vendored lib (D3 v{d3.version})

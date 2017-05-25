@@ -31,7 +31,7 @@ svg
     .attr("r", function(d) { return d.r - 0.25; })
   .transition()
     .ease(d3.easeCubicOut)
-    .delay(function(d) { return Math.sqrt(d.x * d.x + d.y * d.y) * 3; })
+    .delay(function(d) { return Math.sqrt(d.x * d.x + d.y * d.y) * 10; })
     .duration(1000)
     .attr("cx", function(d) { return d.x; })
     .attr("cy", function(d) { return d.y; });
