@@ -5,8 +5,7 @@
   "author": "John Manoogian III <jm3@jm3.net>",
   "license": "MIT",
   "description": "learning React + webpack + babel + JSX",
-  "dependencies": {
-  },
+  "dependencies": {},
   "scripts": {
     "start": "webpack-dev-server"
   },
