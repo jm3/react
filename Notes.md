@@ -16,6 +16,15 @@
 - *presets*: Babel plugins that tell Babel what to look out for and
 transform into plain, vanilla Javascript.
 
+## React
+- **Passing data through props**
+- **Lifting state up**
+- **Functional Components**
+- **Immutable data**
+- **Saving state in components**
+- **[Keys](https://facebook.github.io/react/tutorial/tutorial.html#keys) on list items**: sounds similar to the way that D3 binds data to DOM or SVG elements
+- **JSX** _(see below)_
+
 ## JSX
 - nice: embedded HTML markup within JS, without need for annoying double-quoting.
 - file extension can be either JSX or JS. React file naming convention is CamelCase.
