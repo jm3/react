@@ -1,8 +1,16 @@
 # Javascript
 - ECMAScript - the specification, basically (TC39 group)
+- Javascript, the language, as she is spoke
 - move to yearly releases rather than monolithic releases
 - [ES2015](https://babeljs.io/learn-es2015) (aka ES6) was the last "big" release. different browsers support different partial versions of it.
 
+## Features
+- ES6 modules obviate all that hellish Common.js / Require.js / AMD chicanery. Who would ever go back?! 😡
+- [ES2015 Classes](https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Classes); syntactic sugar around classic JS prototypal inheritance
+
+
+## Concepts
+- **Hoisting** - variable and function declarations are loaded into memory at compile time, so that functions can be called before they are declared (out of order.)
 ## Dialects
 
 Static typing:
@@ -10,6 +18,7 @@ Static typing:
 ### Flow
 - [flow.org](https://flow.org/)
 - from Facebook, easily integrates with Babel
+- [flow setup](https://flow.org/en/docs/install/s)
 
 ### Typescript
 - [typescriptlang.org](http://www.typescriptlang.org/)
