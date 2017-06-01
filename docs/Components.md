@@ -13,6 +13,9 @@ React components let you split the UI into independent, reusable pieces, and thi
   - **Unmounting**
     - when a component is being removed from the DOM.
     - method: `componentWillUnmount()`
+  - of no particular category but very important
+    - `setState()` asynchronously update component's state + trigger a re-render
+  - - see: [State](/docs/State.md)
 
 ## Organizing your components
 
