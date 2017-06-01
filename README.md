@@ -2,12 +2,12 @@
 
 My [notes to self](/docs/React.md) as I learn [React.js](/docs/React.md).
 
-See also my cryptic scribblings regarding:
-- [Babel](/docs/Babel.md)
-- [Javascript](/docs/Javascript.md)
-- [JSX](/docs/JSX.md)
-- [Tools](/docs/Tools.md)
-- [webpack](/docs/webpack.md)
+See also my cryptic scribblings in the [`related/`](/related/) folder regarding:
+- [Babel](/related/Babel.md)
+- [Javascript](/related/Javascript.md)
+- [JSX](/related/JSX.md)
+- [Tools](/related/Tools.md)
+- [webpack](/related/webpack.md)
 
 ## Resources
 - [Official Docs](https://facebook.github.io/react/docs/hello-world.html)
