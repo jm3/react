@@ -4,6 +4,7 @@ My [notes to self](/docs/React.md) as I learn [React.js](/docs/React.md).
 
 See also my cryptic scribblings in the [`related/`](/related/) folder regarding:
 - [Babel](/related/Babel.md)
+- [Flux/Redux](/related/Redux-Flux.md)
 - [Javascript](/related/Javascript.md)
 - [JSX](/related/JSX.md)
 - [Tools](/related/Tools.md)
