@@ -1,5 +1,6 @@
 # JSX
 - nice: embedded HTML markup within JS, without need for annoying double-quoting.
+- compare: string-driven development, ES6 template strings, Handlebars, ERB
 - file extension can be either JSX or JS. React file naming convention is CamelCase.
 - **Pass values into Components**: *This was sort of weird to me.* Data & options are passed into the component in HTML attribute notation, WITHOUT quotes. <shrug>
 - from within the Component, any values passed in can be accessed via this.props
