@@ -1,5 +1,8 @@
 # webpack - a module bundler
 - configured via `webpack.config.js`
+
+importing: webpack looks for bare `import` strings in node_modules/, so we use relative paths to force local project lookup, e.g. for components
+
 ### Entry points
 - where loading begins. a single `{entry: 'path/file.js'}` is shorthand for `{entry: main: 'path/file.js'}`
 - *Outputs* path: `__dirname + '/build'`. more on resolution: https://webpack.github.io/docs/resolving.html

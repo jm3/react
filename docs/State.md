@@ -1,4 +1,7 @@
 # State
+
+- DOM HTML is always derived, so we don't manipulate the DOM directly
+- state data is **not** stored in the DOM
 - [`setState()`](https://facebook.github.io/react/docs/react-component.html#setstate) - request an update to a component
   - `setState()` will always lead to a re-render unless `shouldComponentUpdate()` returns false - _RD_
   - `setState()` has two calling styles:

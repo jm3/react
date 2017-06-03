@@ -12,6 +12,7 @@
 - "It's not a ~~tumor~~ framework" (It's a view rendering library)
 - JSX _(see [JSX.md](/docs/JSX.md))_, which is lintable JS, not magical "string-driven development" — h/t [Krzysztof Jendrzyca](https://github.com/kjendrzyca)
 - Managing [State](/docs/State.md)
+- Context
 - Immutable data
 - Virtual DOM
 - The distinction between state and props can be useful: it makes clear what state the component owns. "It's best to keep most components stateless, and isolate state into as few places as possible."

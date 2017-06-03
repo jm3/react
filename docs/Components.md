@@ -15,7 +15,7 @@ React components let you split the UI into independent, reusable pieces, and thi
 
 ## Organizing your components
 
-- [Functional Components](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html#stateless-functional-components) - stateless ‡, `function`al components that behave like a React class with only a `render()` method defined. ‡ as in, they literally cannot call `setState()`
+- Stateless [Functional Components](https://facebook.github.io/react/blog/2015/10/07/react-v0.14.html#stateless-functional-components) - stateless ‡, `function`al components that behave like a React class with only a `render()` method defined. ‡ as in, they literally cannot call `setState()`
 - Parent components that own state are termed [_container components_](https://medium.com/@dan_abramov/smart-and-dumb-components-7ca2f9a7c7d0), and are sort of more like controllers than views, I think(?)
 - Presentational components **do** contain styles, don't keep state, don't do data access or manipulation, and are generally _functional components_.
 

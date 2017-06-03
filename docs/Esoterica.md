@@ -1,5 +1,17 @@
 # Esoterica
 
+- fucking [REFS](https://facebook.github.io/react/docs/refs-and-the-dom.html)
+
+- JSX: `ref={(input) => {this.storeInput = input}}`
+
+``` javascript
+constructor() {
+  super();
+  this.goToStore = this.goToStore.bind(this);
+}
+```  
+- HTML Element mount points in the TARGET HTML doc should not be self-closing for brevity. This bit me, too: <div id="root"></div> works; <div id="root" /> does not. lol ok.
+
 ### the [Component Lifecycle](https://facebook.github.io/react/docs/react-component.html#the-component-lifecycle)
   - Components have several lifecycle method hooks, reminiscent of D3's [`Enter` / `Update` / `Exit`](https://medium.com/@c_behrens/enter-update-exit-6cafc6014c36) cycle.
   - **Mounting**
